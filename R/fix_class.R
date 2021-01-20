@@ -8,7 +8,6 @@
 #' @param josa_year year investigated.
 #' @param fix_var fixed variable
 #' @return a vector including values in changed classes
-#' @examples
 #' @export
 #' @importFrom as_tibble dplyr
 

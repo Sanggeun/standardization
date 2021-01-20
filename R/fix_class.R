@@ -82,7 +82,7 @@ fix_age_class_tochs <- function(data_set, class_var='age', value_var=c('pop_all'
   }
 
   names(result_pop) <- chs_class_range
-  result_pop <- t(as_tibble(result_pop))
+  result_pop <- t(dplyr::as_tibble(result_pop))
   return(result_pop)
 
 }

@@ -1,6 +1,6 @@
 #' fix class for standardization.
 #'
-#' fix_age_class_tochs function will change classes of population data for standardization of community health survey result.
+#' fix_age_class_tochs function will change classes of population data in standardization of community health survey result.
 #'
 #' @param data_set data set.
 #' @param class_var class variable.

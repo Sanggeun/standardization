@@ -9,7 +9,7 @@
 #' @param fix_var fixed variable
 #' @return a vector including values in changed classes
 #' @export
-#' @importFrom as_tibble dplyr
+#' @importFrom dplyr as_tibble
 
 fix_age_class_tochs <- function(data_set, class_var='age', value_var=c('pop_all','pop_male','pop_female'),
                                 josa_year, fix_var = 'death') {
